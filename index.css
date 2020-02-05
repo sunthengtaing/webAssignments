@@ -1,0 +1,146 @@
+body {
+	background-image: url('background_four.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+}
+
+span {
+	color: red;
+	font-weight: bold;
+}
+
+.navbar {
+	overflow: hidden;
+	/* background-color: #C58363; */
+	margin-top: 50px;
+	margin-left: 20%;
+  	width: 80%;
+}
+.navbar a {
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	float: left;
+ 	color: #FFFFFF;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 15px;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar a:active {
+  color: blue;
+}
+.navbar img {
+	position:relative; 
+	margin-left: 20%; 
+	height: 60px;
+	width: 400px;
+} 
+
+.container {
+	/* background-color: #FFFFFF;  */
+	padding-top: 50px;
+ 	max-width: 60%;
+ 	min-height: 100%;
+  	margin: auto;
+  	position: relative;
+  	display: flex;	
+} 
+
+.headshot {
+	object-position: 50% 50%;
+    width: 285px;
+    height: 300px;
+    object-fit: cover;
+    padding-top: 25px;
+    margin-right: 10px;
+  	float: left;
+  	box-shadow: 10px 30px 9px grey;
+}
+
+.text {
+	/* background-color: #000000; */
+	margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.title_font_1 {
+	font: 65px 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 40%;
+    padding-top: 10px;
+}
+
+.title_font_2 {
+	font: 35px 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 40%;
+    padding-top: 10px;
+}
+
+.biography {
+	font: 14px 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+  	margin: 0;
+    padding-left: 40%;
+    padding-top: 10px;
+    text-decoration: none;
+
+}
+
+.lists {
+	display: block;
+	margin-top: 30px;	
+	/* background-color: #000000; */
+	float: left;
+	padding: 20px;
+	width: 100%;
+}
+
+.lists h2, ol, ul{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+ 	color: #FFFFFF; 	
+ 	padding: 5px 30px 0px 20px;
+ 
+}
+
+.header_lists {
+	float: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: none;
+  margin-bottom: 50px;	
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+ color: #FFFFFF; 
+}
+
+tr:nth-child(even) {
+  background-color: #CD826F;
+}
+
+.quote p{
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	float: left;
+	font-size: 30px;
+ 	color: #FFFFFF;
+ 	padding-bottom: 10px;
+}
